@@ -143,13 +143,14 @@ nav li.active a {
 
 .techonology {
   margin-top: 20px;
-  padding-left: 50px;
+  padding-left: 30px;
   margin-bottom: 40px;
 }
 
 .techonology h2 {
   font-family: var(--default-font-family);
   color: var(--brand-color);
+  padding:30px;
 }
 
 .toolbox {

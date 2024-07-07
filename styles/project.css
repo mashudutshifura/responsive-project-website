@@ -1,0 +1,223 @@
+:root {
+  --brand-color: #5e6043;
+  --secondary-color: white;
+  --h1-heading-font-family: "Roboto Mono", monospace;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #4c4c4c;
+  font-family: var(--h1-heading-font-family);
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 1.5;
+  padding: 150px 20px 10px 20px;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 2;
+  padding: 30px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.introduction {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.introduction p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.introduction h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.content-page {
+  padding: 60px 20px;
+}
+
+.content-page h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content-page h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content-page h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+.content-page p {
+  font-size: 14px;
+}
+
+.content {
+  margin: 30px;
+}
+
+.btn-brand {
+  background: var(--brand-color);
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 18px 18px;
+}
+
+.btn-brand-outline {
+  color: var(--brand-color);
+  border: 1px solid var(--brand-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-desciption {
+  padding: 120px 60px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--brand-color);
+}
+
+.techonology {
+  margin-top: 20px;
+  padding-left: 50px;
+  margin-bottom: 40px;
+}
+
+.techonology h2 {
+  font-family: var(--default-font-family);
+  color: var(--brand-color);
+}
+
+.toolbox {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  padding: 5px 0px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.tools {
+  margin: 10px;
+}
+
+.tools .col img {
+  width: 50px;
+  margin: 5px;
+}
+
+figcaption {
+  color: var(--primary-color);
+  font-size: 12px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .social-links a {
+  margin: 100px 20px;
+  color: var(--brand-color);
+  background: var(--secondary-color);
+  padding: 5px 10px;
+  border-radius: 20%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--brand-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  .introduction {
+    padding: 80px 20px;
+  }
+
+  .content-page {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+}

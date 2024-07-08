@@ -97,7 +97,7 @@ p {
 }
 .content-page p {
   font-size: 14px;
-  margin: 0px 20px 0px 0px;
+  margin: 0px 166px 0px 25px;
 }
 
 .content {
@@ -144,7 +144,7 @@ figcaption {
   font-size: 16px;
   line-height: 16px;
   padding: 18px 18px;
-  margin:35px 0px 0px 30px;
+  margin: 35px 0px 0px 30px;
 }
 
 .btn-brand-outline {
@@ -158,6 +158,9 @@ figcaption {
 
 .project-desciption {
   padding: 37px 0px;
+}
+.project-desciption p {
+  margin: 0px 20px 0px 0px;
 }
 
 footer {
@@ -205,7 +208,7 @@ footer .social-links a:hover {
     text-align: left;
     padding: 0;
   }
-.content-page h2 {
+  .content-page h2 {
     text-align: left;
     padding: 0 2px;
   }
@@ -218,13 +221,13 @@ footer .social-links a:hover {
     padding: 0;
     text-align: center;
   }
-  .tools{
-    margin:0px 55px 0px 0px;
+  .tools {
+    margin: 0px 55px 0px 0px;
   }
-  .toolbox{
+  .toolbox {
     text-align: left;
   }
   .btn-brand {
-    margin:0;
+    margin: 0;
   }
 }

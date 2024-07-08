@@ -10,108 +10,6 @@ body {
   font-family: var(--default-font-family);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #4c4c4c;
-  font-family: var(--h1-heading-font-family);
-}
-
-h1 {
-  font-size: 65px;
-  line-height: 1.5;
-  padding: 17px 20px 10px 20px;
-}
-
-h2 {
-  font-size: 20px;
-  padding: 22px;
-}
-
-h3 {
-  font-size: 48px;
-}
-
-p {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-}
-
-.introduction {
-  background: var(--secondary-color);
-  text-align: center;
-  padding: 0px 20px;
-}
-
-.introduction p {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
-  color: #272142;
-}
-
-.introduction h2 {
-  font-family: var(--heading-font-family);
-  font-weight: normal;
-  line-height: 1.5;
-  font-size: 24px;
-}
-
-.content-page {
-  padding: 60px 20px;
-}
-
-.content-page h1 {
-  font-size: 64px;
-}
-
-.content-page h2 {
-  font-size: 18px;
-  font-family: var(--default-font-family);
-}
-.content-page h3 {
-  font-size: 24px;
-  line-height: 1.5;
-  font-family: var(--default-font-family);
-}
-.content-page p {
-  font-size: 14px;
-}
-
-.content {
-  margin: 30px;
-}
-
-.btn-brand {
-  background: var(--brand-color);
-  border-radius: 12px;
-  color: white;
-  font-size: 16px;
-  line-height: 16px;
-  padding: 18px 18px;
-}
-
-.btn-brand-outline {
-  color: var(--brand-color);
-  border: 1px solid var(--brand-color);
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-}
-
-.project-desciption {
-  padding: 37px 17px;
-}
-
-.logo {
-  max-height: 40px;
-}
-
 nav {
   padding: 20px 0;
 }
@@ -137,6 +35,73 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--brand-color);
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #4c4c4c;
+  font-family: var(--h1-heading-font-family);
+}
+
+h1 {
+  font-size: 65px;
+  line-height: 1.5;
+  padding: 17px 20px 10px 20px;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 22px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.introduction {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 0px 20px;
+  margin-top: 78px;
+}
+
+.introduction h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.content-page {
+  padding: 60px 20px;
+}
+
+.content-page h1 {
+  font-size: 64px;
+}
+
+.content-page h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content-page p {
+  font-size: 14px;
+  margin: 0px 20px 0px 20px;
+}
+
+.content {
+  margin: 30px;
 }
 
 .techonology {
@@ -171,6 +136,28 @@ nav li.active a {
 figcaption {
   color: var(--primary-color);
   font-size: 12px;
+}
+.btn-brand {
+  background: var(--brand-color);
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 18px 18px;
+  margin:35px 0px 0px;
+}
+
+.btn-brand-outline {
+  color: var(--brand-color);
+  border: 1px solid var(--brand-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-desciption {
+  padding: 37px 17px;
 }
 
 footer {
@@ -211,12 +198,33 @@ footer .social-links a:hover {
   }
 
   .content-page {
-    text-align: center;
+    text-align: left;
     padding: 0;
   }
-
+  .content-page h1 {
+    text-align: left;
+    padding: 0;
+  }
+.content-page h2 {
+    text-align: left;
+    padding: 0 2px;
+  }
+  .content-page p {
+    text-align: left;
+    padding: 20px;
+    margin: 0px 21px 0px -17px;
+  }
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+  .tools{
+    margin:0px 55px 0px 0px;
+  }
+  .toolbox{
+    text-align: left;
+  }
+  .btn-brand {
+    margin:0;
   }
 }

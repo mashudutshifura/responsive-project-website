@@ -21,7 +21,7 @@ h6 {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 65px;
   line-height: 1.5;
   padding: 17px 20px 10px 20px;
 }
@@ -174,7 +174,7 @@ figcaption {
 }
 
 footer {
-  margin: 43px 0;
+  margin: 124px 0 -60px 0;
 }
 
 footer .social-links a {

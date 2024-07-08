@@ -23,13 +23,12 @@ h6 {
 h1 {
   font-size: 70px;
   line-height: 1.5;
-  padding: 150px 20px 10px 20px;
+  padding: 17px 20px 10px 20px;
 }
 
 h2 {
   font-size: 20px;
-  line-height: 2;
-  padding: 30px;
+  padding: 22px;
 }
 
 h3 {
@@ -68,7 +67,6 @@ p {
 
 .content-page h1 {
   font-size: 64px;
-  line-height: 80px;
 }
 
 .content-page h2 {
@@ -107,7 +105,7 @@ p {
 }
 
 .project-desciption {
-  padding: 120px 60px;
+  padding: 37px 17px;
 }
 
 .logo {
@@ -143,19 +141,19 @@ nav li.active a {
 
 .techonology {
   margin-top: 20px;
-  padding-left: 30px;
+
   margin-bottom: 40px;
 }
 
 .techonology h2 {
   font-family: var(--default-font-family);
   color: var(--brand-color);
-  padding:30px;
+  padding: 30px;
 }
 
 .toolbox {
-  margin-top: 30px;
-  margin-bottom: 100px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   padding: 5px 0px;
   max-width: 600px;
   text-align: center;
@@ -176,11 +174,11 @@ figcaption {
 }
 
 footer {
-  margin: 60px 0;
+  margin: 43px 0;
 }
 
 footer .social-links a {
-  margin: 100px 20px;
+  margin: 5px 20px;
   color: var(--brand-color);
   background: var(--secondary-color);
   padding: 5px 10px;

@@ -97,7 +97,7 @@ p {
 }
 .content-page p {
   font-size: 14px;
-  margin: 0px 20px 0px 20px;
+  margin: 0px 20px 0px 0px;
 }
 
 .content {
@@ -144,7 +144,7 @@ figcaption {
   font-size: 16px;
   line-height: 16px;
   padding: 18px 18px;
-  margin:35px 0px 0px;
+  margin:35px 0px 0px 30px;
 }
 
 .btn-brand-outline {
@@ -157,7 +157,7 @@ figcaption {
 }
 
 .project-desciption {
-  padding: 37px 17px;
+  padding: 37px 0px;
 }
 
 footer {
